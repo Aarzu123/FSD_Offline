@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Blog</title>
+    
+    <!-- External Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Internal Stylesheet -->
+    <style>
+        /* Internal CSS for specific styles */
+        h1, h2 {
+            font-family: 'Arial', sans-serif;
+            color: #333;
+        }
+
+        .header {
+            text-align: center;
+            background: linear-gradient(to right, #1e90ff, #00bfff);
+            color: white;
+            padding: 20px;
+        }
+
+        .nav-menu a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="header" id="header">
+        <h1>Tech Blog</h1>
+        <nav class="nav-menu">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+        <section class="blog-posts">
+            <article class="blog-post">
+                <h2 class="blog-post__title">Understanding CSS Grid</h2>
+                <p class="blog-post__content">
+                    CSS Grid Layout is a two-dimensional layout system for the web...
+                </p>
+            </article>
+            <article class="blog-post">
+                <h2 class="blog-post__title">JavaScript ES6 Features</h2>
+                <p class="blog-post__content">
+                    ECMAScript 2015, also known as ES6, introduced many new features...
+                </p>
+            </article>
+        </section>
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <h2>Categories</h2>
+            <ul>
+                <li><a href="#">CSS</a></li>
+                <li><a href="#">JavaScript</a></li>
+                <li><a href="#">HTML</a></li>
+                <li><a href="#">Web Development</a></li>
+            </ul>
+        </aside>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p>&copy; 2024 Tech Blog. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

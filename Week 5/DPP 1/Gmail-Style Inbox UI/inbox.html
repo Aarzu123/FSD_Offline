@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gmail-Style Inbox</title>
+    <link rel="stylesheet" href="inbox.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">MyMail</div>
+        <nav>
+            <ul>
+                <li><a href="#">Inbox</a></li>
+                <li><a href="#">Sent</a></li>
+                <li><a href="#">Drafts</a></li>
+                <li><a href="#">Trash</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Inbox Section -->
+    <section class="inbox">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <ul>
+                <li><a href="#">Inbox</a></li>
+                <li><a href="#">Sent</a></li>
+                <li><a href="#">Drafts</a></li>
+                <li><a href="#">Trash</a></li>
+            </ul>
+        </aside>
+
+        <!-- Main Content Area -->
+        <div class="main-content">
+            <ul class="email-list">
+                <li class="email-item">
+                    <input type="checkbox">
+                    <span class="sender">John Doe</span>
+                    <span class="subject">Meeting tomorrow</span>
+                    <span class="preview">Hi, just a reminder about the meeting tomorrow at 10am...</span>
+                    <span class="timestamp">10:30 AM</span>
+                </li>
+                <!-- More email items... -->
+                <li class="email-item">
+                    <input type="checkbox">
+                    <span class="sender">Jane Smith</span>
+                    <span class="subject">Project Update</span>
+                    <span class="preview">Here is the latest update on the project...</span>
+                    <span class="timestamp">Yesterday</span>
+                </li>
+                <!-- More email items... -->
+            </ul>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 MyMail. All rights reserved.</p>
+    </footer>
+</body>
+</html>
