@@ -80,8 +80,8 @@ bookCatalog.printAvailability("Atomic Habits");
 
 //Optional chaining
 
-// console.log('copies',bookCatalog["Let Us C"]?.copies);
-// console.log('author',bookCatalog["Java"]?.author);
+console.log('copies',bookCatalog["Let Us C"]?.copies);
+console.log('author',bookCatalog["Java"]?.author);
 
 //Set & Get MetaData
 Object.defineProperty(bookCatalog["Atomic Habits"],"author",{

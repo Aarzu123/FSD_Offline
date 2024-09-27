@@ -1,4 +1,4 @@
-const prompt=require("prompt-sync")({signint:true});
+//const prompt=require("prompt-sync")({signint:true});
 
 const question1 = "What is 2 + 6?";
 const answer1 = 8;
@@ -48,6 +48,4 @@ resultMessage += "Keep practicing! You'll do better next time.";
 }
 
 // Display final result
-//alert(resultMessage);
-
-console.log(resultMessage);
+alert(resultMessage);
